@@ -1,0 +1,2 @@
+.feedback-notes{width:100%;min-height:48px;resize:vertical;outline:0;border:1px solid #303a45;background:#111a24;border-radius:5px;padding:7px 8px;color:#c8d2dd;font:9px 'DM Sans',sans-serif;margin:0 0 7px}
+.feedback-notes::placeholder{color:#718092}

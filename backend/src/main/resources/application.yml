@@ -1,0 +1,16 @@
+server:
+  port: ${PORT:8080}
+spring:
+  application:
+    name: recallops-api
+  jackson:
+    default-property-inclusion: non_null
+recallops:
+  cors-origin: ${FRONTEND_ORIGIN:http://localhost:5173}
+  hindsight:
+    url: ${HINDSIGHT_URL:http://localhost:8888}
+    api-key: ${HINDSIGHT_API_KEY:}
+    bank-id: ${HINDSIGHT_BANK_ID:recallops-incidents}
+  openai:
+    api-key: ${OPENAI_API_KEY:}
+    model: ${OPENAI_MODEL:gpt-4.1-mini}
